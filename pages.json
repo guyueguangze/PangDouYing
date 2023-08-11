@@ -1,0 +1,200 @@
+{
+  "pages": [
+    {
+      "path": "pages/Login/Login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "enablePullDownRefresh": false,
+        "disableScroll": true,
+        "pageOrientation": "auto",
+        "app-plus": {
+          "titleView": false
+        }
+      }
+    },
+    {
+      "path": "pages/Home/Home",
+      "style": {
+        "navigationBarTitleText": "胖斗营",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "autoBackButton": true
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/Records/Records",
+      "style": {
+        "navigationBarTitleText": "记录",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Map/Map",
+      "style": {
+        "navigationBarTitleText": "地图",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Doctor/Doctor",
+      "style": {
+        "navigationBarTitleText": "智能医生",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/My/My",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/ScienceArticle/Article/Article",
+      "style": {
+        "navigationBarTitleText": "文章详情",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/ScienceArticle/ArticleDetail/ArticleDetail",
+      "style": {
+        "navigationBarTitleText": "文章详情",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "autoBackButton": true
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/Home/ScienceArticle/Answer/Answer",
+      "style": {
+        "navigationBarTitleText": "答题",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "autoBackButton": true
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/Home/ScienceArticle/sbumitSuccess/sbumitSuccess",
+      "style": {
+        "navigationBarTitleText": "提交成功",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "titleNView": {
+            "autoBackButton": true
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/Home/UserInfo/UserInfo",
+      "style": {
+        "navigationBarTitleText": "添加成员",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/Ranking/Ranking",
+      "style": {
+        "navigationBarTitleText": "运动排名",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/Grow/Grow",
+      "style": {
+        "navigationBarTitleText": "生长打卡",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/Food/Food",
+      "style": {
+        "navigationBarTitleText": "膳食打卡",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/Home/Food/FoodRecord/FoodRecord",
+      "style": {
+        "navigationBarTitleText": "膳食记录",
+        "enablePullDownRefresh": false
+      }
+    }
+      ,{
+            "path" : "pages/Home/Food/NutritionReport/NutritionReport",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "营养报告",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/Home/Food/Cuisine/Cuisine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "菜品库",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "app-plus": {
+      "background": "#efeff4"
+    },
+    "font-family": "SourceHanSansCN"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "selectedColor": "#C8C9C9",
+    "backgroundColor": "#fff",
+    "color": "#C8C9C9",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "iconPath": "./static/icon/02home.png",
+        "selectedIconPath": "./static/icon/02home.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Records/Records",
+        "selectedIconPath": "./static/icon/02record.png",
+        "iconPath": "./static/icon/02record.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/Map/Map",
+        "selectedIconPath": "./static/icon/02map.png",
+        "iconPath": "./static/icon/02map.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/Doctor/Doctor",
+        "selectedIconPath": "./static/icon/02AIdoctor.png",
+        "iconPath": "./static/icon/02AIdoctor.png",
+        "text": "智能医生"
+      },
+      {
+        "pagePath": "pages/My/My",
+        "selectedIconPath": "./static/icon/my_icon.png",
+        "iconPath": "./static/icon/my_icon.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
